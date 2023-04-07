@@ -10,7 +10,7 @@ local function toggleESP()
 end
 
 -- Set the keybind to toggle ESP on and off
-local toggleESPKeybind = Enum.KeyCode.X  -- Replace 'E' with your desired keybind
+local toggleESPKeybind = Enum.KeyCode.Z
 local userInputService = game:GetService("UserInputService")
 userInputService.InputBegan:Connect(function(input, isProcessed)
     if not isProcessed and input.KeyCode == toggleESPKeybind then
